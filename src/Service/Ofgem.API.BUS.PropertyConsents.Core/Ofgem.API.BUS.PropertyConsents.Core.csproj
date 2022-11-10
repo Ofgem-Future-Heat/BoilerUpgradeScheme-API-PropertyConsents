@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.1.1" />
+    <PackageReference Include="GovukNotify" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.20.0" />
+    <PackageReference Include="Ofgem.API.BUS.Applications.Client" Version="0.0.57" />
+    <PackageReference Include="Ofgem.API.BUS.Applications.Domain" Version="0.0.198" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.20.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Ofgem.API.BUS.PropertyConsents.Domain\Ofgem.API.BUS.PropertyConsents.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
